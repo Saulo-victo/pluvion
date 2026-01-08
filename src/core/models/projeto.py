@@ -6,9 +6,6 @@ class Projeto:
     def adicionarBacia(self, bacia):
         self.listaBacias.append(bacia)
 
-    def listarBacia(self):
-        for i in self.listaBacias:
-            print(i.itensidadePluviometrica)
 
 
 

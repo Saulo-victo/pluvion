@@ -1,5 +1,4 @@
 from controllers.controllerHidrologico import CalcularBacia
-from core.models.projeto import Projeto
 
 class CalcularProjeto:
     def __init__(self, projeto):        
