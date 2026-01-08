@@ -1,4 +1,4 @@
-def vazaoProjeto(Bacia):    
-    return Bacia.area * Bacia.coefInfiltracao * Bacia.itensidadePluviometrica
+def vazaoProjeto(bacia):    
+    return (bacia.area/3600000) * bacia.coefInfiltracao * bacia.itensidadePluviometrica
     
     

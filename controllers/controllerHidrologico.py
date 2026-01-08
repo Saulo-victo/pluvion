@@ -1,10 +1,10 @@
-from core.calculos import itensidadePluviometrica
-from core.calculos import tempoConcetracao
-from core.calculos import vazaoProjeto
-from core.models import bacia
+from core.calculos.itensidadePluviometrica import itensidadePluviometrica
+from core.calculos.tempoConcetracao import tempoConcetracao
+from core.calculos.vazaoProjeto import vazaoProjeto
 
-class HidrologiaController:
+class ControllerBacia:
     def __init__(self, bacia):
+        bacia.tempoConcentracao = tempoConcetracao(bacia)
         bacia.itensidadePluviometrica = itensidadePluviometrica(bacia)
         bacia.vazaoProjeto = vazaoProjeto(bacia)
-        bacia.tempoConcentracao = tempoConcetracao(bacia)
+        
