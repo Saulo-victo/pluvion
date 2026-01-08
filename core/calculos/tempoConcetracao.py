@@ -1,5 +1,5 @@
-def tempoConcetracao(Bacia):    
-    return (57)*(((Bacia.compLinhaDagua**3)/Bacia.desnivel)**0.385)
+def tempoConcetracao(bacia):    
+    return (57)*(((bacia.compLinhaDagua**3)/bacia.desnivel)**0.385)
     
     
 

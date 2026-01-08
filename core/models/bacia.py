@@ -46,7 +46,6 @@ class Bacia:
         self.tempoConcentracao = None
         self.itensidadePluviometrica = None  
 
-B1 = Bacia('2', 12, 2, 15, 152, 50, 30)
 
     
 
