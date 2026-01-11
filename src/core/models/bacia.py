@@ -1,6 +1,5 @@
 class Bacia:
     def __init__(self, nome: str, area: float, coefInfiltracao: float, tempoRetorno:float, compLinhaDagua:float, cotaMontante:float, cotaJusante:float):
-        
         if not nome.strip():
             raise ValueError('O campo nome deve ser preenchido')
         else:
